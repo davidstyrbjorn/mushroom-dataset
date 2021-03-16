@@ -1,0 +1,100 @@
+{
+ "mushrooms":[{
+     "name_lat": "Agaricus bisporus",
+     "name_swe": "Trädgårdsschmpinjon",
+     "name_eng": "Common Mushroom",
+     "color": ["#ffffff", "#b07b00"],
+
+     "images": ["https://upload.wikimedia.org/wikipedia/commons/0/01/ChampignonMushroom.jpg"],
+
+    "hymenium": "gills",
+    "hymenium_attachment": "free",
+    "cap": "convex",
+    "stipe": "ring",
+    "spore_print": {
+        "color":["#964B00"],
+        "literal": "brown"
+    },
+    "ecology": "saprotrophic",
+    "edible": "choice",
+
+     "division": "basidiomycota",
+     "class": "agaricomycetes",
+     "order": "agaricales",
+     "family": "agaricaceae",
+     "genus": "agaricus"
+
+ }, {
+     "name_lat": "Amanita muscaria",
+     "name_swe": "Röd Flugsvamp",
+     "color": ["#ffffff", "#ff0000"],
+
+     "images":["https://i.imgur.com/hI3n2s5.jpg", "https://i.imgur.com/EVc1tTm.jpg"],
+
+     "hymenium": "gills",
+     "cap": "flat or convex",
+     "hymenium_attachment": "free",
+     "stipe": "ring and volva",
+     "spore_print": {
+         "color": ["#ffffff"],
+         "literal": "white"
+     },
+     "ecology": "mycorrhizal",
+     "edible": "psychoactive",
+
+     "division": "basidiomycota",
+     "class": "agaricomycetes",
+     "order": "agaricales",
+     "family": "amanitaceae",
+     "genus": "amanita"
+ }, {
+    "name_lat": "Psilocybe semilanceata",
+    "name_swe": "Toppslätskivling",
+    "name_eng": "Liberty Cap",
+    "color": ["#ffffff", "#b07b00"],
+
+    "images":["https://upload.wikimedia.org/wikipedia/commons/6/6b/Psilocybe_semilanceata.jpg"],
+
+    "hymenium": "gills",
+    "cap": "conical or umbonate",
+    "hymenium_attachment": "free",
+    "stipe": "bare",
+    "spore_print": {
+        "color": ["#964B00", "#800080"],
+        "literal": "brown to purple"
+    },
+    "ecology": "saprotrophic",
+    "edible": "psychoactive",
+
+    "division": "basidiomycota",
+    "class": "agaricomycetes",
+    "order": "agaricales",
+    "family": "hymenogastraceae",
+    "genus": "psilocybe"
+ }, {
+    "name_lat": "Amanita fulva",
+    "name_swe": "Brun Kamskivling",
+    "name_eng": "Tawny Grisette",
+    "color": ["#ffffff", "#b07b00"],
+
+    "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Amanita_fulva_lowpx.jpg/368px-Amanita_fulva_lowpx.jpg"],
+
+    "hymenium": "gills",
+    "cap": "umbonate",
+    "hymenium_attachment": "free",
+    "stipe": "volva",
+    "spore_print": {
+        "color": ["#ffffff"],
+        "literal": "white"
+    },
+    "ecology": "mycorrhizal",
+    "edible": "non-edible",
+
+    "division": "basidiomycota",
+    "class": "agaricomycetes",
+    "order": "agaricales",
+    "family": "amanitaceae",
+    "genus": "amanita"
+ }
+
+]}
