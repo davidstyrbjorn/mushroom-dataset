@@ -7,8 +7,8 @@ Create a merge request and it'll be added as long as you follow the structure an
 
 Structure for each mushroom is as follows
 
-**All fields are strings unless specified as something different**
-**?after varible means optional field**
+**All fields are strings unless specified as something different**<br>
+**?after varible means optional field**<br>
 **Colors are hexadecimal strings**
 
 name_lat: latin name
