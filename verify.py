@@ -5,8 +5,8 @@ import json # import json module
 def verifyData():
     # Create the list of each required entry
     required_keys = ['name_lat', 'color', 'hymenium', 'hymenium_attachment',
-        'cap', 'stipe', 'ecology', 'edible', 'division', 'class', 'order', 'family',
-        'genus', 'spore_print']
+        'cap', 'stipe', 'ecology', 'edible', 'classification', 'spore_print']
+    required_classification_keys = ['division', 'class', 'order', 'family', 'genus']
 
     # Enter the json data correctly with some weird keyword
     with open('data.json') as json_file:
@@ -15,12 +15,16 @@ def verifyData():
         for p in data['mushrooms']: # Loop through each mushroom
             for entry in required_keys: # Loop through and check each entry
                 if entry not in p:
-                    raise ValueError(entry + ' missing from entry with index ' + str(i))
-            # If we got to here we check the spore_print
+                    return (entry + ' missing from entry with index ' + str(i))
+            # If we got to here we check the spore print fields
             if 'color' not in p['spore_print'] or 'literal' not in p['spore_print']:
-                raise ValueError('spore_print key incorrect in entry with name ' + p['name_lat'])
+                return ('spore_print key incorrect in entry with name ' + p['name_lat'])
+            # If we got to here we check the classification fields
+            for entry in required_classification_keys:
+                if entry not in p['classification']:
+                    return (entry + ' missing from classification entry with name ' + p['name_lat'])
             i += 1 # Increment the counter
     
-    print("SUCESSFULLY VERIFIED THE DATASET AND IT HAS ALL THE REQUIRED KEYS")
+    return ("SUCESSFULLY VERIFIED THE DATASET AND IT HAS ALL THE REQUIRED KEYS")
 
-verifyData()
+print(verifyData())

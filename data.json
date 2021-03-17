@@ -1,16 +1,17 @@
 {
  "mushrooms":[{
-     "name_lat": "Agaricus bisporus",
-     "name_swe": "Trädgårdsschmpinjon",
-     "name_eng": "Common Mushroom",
-     "color": ["#ffffff", "#b07b00"],
+    "name_lat": "Agaricus bisporus",
+    "name_swe": "Trädgårdsschmpinjon",
+    "name_eng": "Common Mushroom",
+    "color": ["#ffffff", "#b07b00"],
 
-     "images": ["https://upload.wikimedia.org/wikipedia/commons/0/01/ChampignonMushroom.jpg"],
+    "images": ["https://upload.wikimedia.org/wikipedia/commons/0/01/ChampignonMushroom.jpg"],
+    "facts": ["It anually rakes in rougly 1 billion dollars in USA", "As recent as 1995 it was revelaed to exist as natively to North America, outside of resturants and grocey stores"],
 
     "hymenium": "gills",
     "hymenium_attachment": "free",
-    "cap": "convex",
-    "stipe": "ring",
+    "cap": ["convex"],
+    "stipe": ["ring"],
     "spore_print": {
         "color":["#964B00"],
         "literal": "brown"
@@ -18,11 +19,13 @@
     "ecology": "saprotrophic",
     "edible": "choice",
 
-     "division": "basidiomycota",
-     "class": "agaricomycetes",
-     "order": "agaricales",
-     "family": "agaricaceae",
-     "genus": "agaricus"
+    "classification": {
+        "division": "basidiomycota",
+        "class": "agaricomycetes",
+        "order": "agaricales",
+        "family": "agaricaceae",
+        "genus": "agaricus"
+    }
 
  }, {
      "name_lat": "Amanita muscaria",
@@ -30,11 +33,12 @@
      "color": ["#ffffff", "#ff0000"],
 
      "images":["https://i.imgur.com/hI3n2s5.jpg", "https://i.imgur.com/EVc1tTm.jpg"],
+     "facts": [],
 
      "hymenium": "gills",
-     "cap": "flat or convex",
+     "cap": ["flat", "convex"],
      "hymenium_attachment": "free",
-     "stipe": "ring and volva",
+     "stipe": ["ring", "volva"],
      "spore_print": {
          "color": ["#ffffff"],
          "literal": "white"
@@ -42,11 +46,14 @@
      "ecology": "mycorrhizal",
      "edible": "psychoactive",
 
-     "division": "basidiomycota",
-     "class": "agaricomycetes",
-     "order": "agaricales",
-     "family": "amanitaceae",
-     "genus": "amanita"
+    "classification": {
+        "division": "basidiomycota",
+        "class": "agaricomycetes",
+        "order": "agaricales",
+        "family": "amanitaceae",
+        "genus": "amanita"
+    }
+
  }, {
     "name_lat": "Psilocybe semilanceata",
     "name_swe": "Toppslätskivling",
@@ -54,11 +61,12 @@
     "color": ["#ffffff", "#b07b00"],
 
     "images":["https://upload.wikimedia.org/wikipedia/commons/6/6b/Psilocybe_semilanceata.jpg"],
+    "facts": [],
 
     "hymenium": "gills",
-    "cap": "conical or umbonate",
+    "cap": ["conical", "umbonate"],
     "hymenium_attachment": "free",
-    "stipe": "bare",
+    "stipe": ["bare"],
     "spore_print": {
         "color": ["#964B00", "#800080"],
         "literal": "brown to purple"
@@ -66,11 +74,14 @@
     "ecology": "saprotrophic",
     "edible": "psychoactive",
 
-    "division": "basidiomycota",
-    "class": "agaricomycetes",
-    "order": "agaricales",
-    "family": "hymenogastraceae",
-    "genus": "psilocybe"
+    "classification": {
+        "division": "basidiomycota",
+        "class": "agaricomycetes",
+        "order": "agaricales",
+        "family": "hymenogastraceae",
+        "genus": "psilocybe"
+    }
+
  }, {
     "name_lat": "Amanita fulva",
     "name_swe": "Brun Kamskivling",
@@ -78,11 +89,12 @@
     "color": ["#ffffff", "#b07b00"],
 
     "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Amanita_fulva_lowpx.jpg/368px-Amanita_fulva_lowpx.jpg"],
+    "facts": [],
 
     "hymenium": "gills",
     "cap": "umbonate",
     "hymenium_attachment": "free",
-    "stipe": "volva",
+    "stipe": ["volva"],
     "spore_print": {
         "color": ["#ffffff"],
         "literal": "white"
@@ -90,11 +102,153 @@
     "ecology": "mycorrhizal",
     "edible": "non-edible",
 
-    "division": "basidiomycota",
-    "class": "agaricomycetes",
-    "order": "agaricales",
-    "family": "amanitaceae",
-    "genus": "amanita"
+    "classification": {
+        "division": "basidiomycota",
+        "class": "agaricomycetes",
+        "order": "agaricales",
+        "family": "amanitaceae",
+        "genus": "amanita"
+    }
+
+ }, {
+    "name_lat": "Amanita Phalloides",
+    "name_swe": "Lömsk flugsvamp",
+    "name_eng": "Death cap",
+    "color": ["#ffffff", "#fff7b8"],
+
+    "images":["https://upload.wikimedia.org/wikipedia/commons/9/99/Amanita_phalloides_1.JPG"],
+    "facts": [],
+
+    "hymenium": "gills",
+    "cap": ["convex", "flat"],
+    "hymenium_attachment": "free",
+    "stipe": ["ring", "volva"],
+    "spore_print": {
+        "color": ["#ffffff"],
+        "literal": "white"
+    },
+    "ecology": "mycorrhizal",
+    "edible": "poisonous",
+
+    "classification": {
+        "division": "basidiomycota",
+        "class": "agaricomycetes",
+        "order": "agaricales",
+        "family": "amanitaceae",
+        "genus": "amanita"
+    }
+
+ }, {
+    "name_lat": "Amanita caesarea",
+    "name_swe": "Kejsarflugsvamp",
+    "name_eng": "Caesar's mushroom",
+    "color": ["#ffffff", "#ff580a"],
+
+    "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Oronges.jpg/1024px-Oronges.jpg"],
+    "facts": [],
+
+    "hymenium": "gills",
+    "cap": ["convex"],
+    "hymenium_attachment": "free",
+    "stipe": "ring and volva",
+    "spore_print": {
+        "color": ["#ffffff"],
+        "literal": "white"
+    },
+    "ecology": "mycorrhizal",
+    "edible": "edible",
+
+    "classification": {
+        "division": "basidiomycota",
+        "class": "agaricomycetes",
+        "order": "agaricales",
+        "family": "amanitaceae",
+        "genus": "amanita"
+    }
+
+ }, {
+    "name_lat": "Amanita pantherina",
+    "name_swe": "Panterflugsvamp",
+    "name_eng": "Panther cap",
+    "color": ["#ffffff", "#ffd7bd"],
+
+    "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Amanita_pantherina_2013_G1.jpg/800px-Amanita_pantherina_2013_G1.jpg"],
+    "facts": [],
+
+    "hymenium": "gills",
+    "cap": ["flat"],
+    "hymenium_attachment": "free",
+    "stipe": ["ring", "volva"],
+    "spore_print": {
+        "color": ["#ffffff"],
+        "literal": "white"
+    },
+    "ecology": "mycorrhizal",
+    "edible": "poisonous and psychoactive",
+
+    "classification": {
+        "division": "basidiomycota",
+        "class": "agaricomycetes",
+        "order": "agaricales",
+        "family": "amanitaceae",
+        "genus": "amanita"
+    }
+
+ }, {
+    "name_lat": "Agaricus augustus",
+    "name_swe": "Kungsschampinjon",
+    "name_eng": "The prince",
+    "color": ["#ffffff", "#ffd7bd"],
+
+    "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Agaricus_augustus_2011_G1.jpg/1024px-Agaricus_augustus_2011_G1.jpg"],
+    "facts": [],
+
+    "hymenium": "gills",
+    "cap": ["convex"],
+    "hymenium_attachment": "free",
+    "stipe": ["ring"],
+    "spore_print": {
+        "color": ["#964B00"],
+        "literal": "brown"
+    },
+    "ecology": "sptrotrophic",
+    "edible": "edible",
+
+    "classification": {
+        "division": "basidiomycota",
+        "class": "agaricomycetes",
+        "order": "agaricales",
+        "family": "agaricaceae",
+        "genus": "agaricus"
+    }
+
+ }, {
+    "name_lat": "Agaricus arvensis",
+    "name_swe": "Snöbollschampinjon",
+    "name_eng": "Horse mushroom",
+    "color": ["#ffffff"],
+
+    "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Pieczarka_polowa_vongrzanka.JPG/800px-Pieczarka_polowa_vongrzanka.JPG"],
+    "facts": [],
+
+    "hymenium": "gills",
+    "cap": ["convex"],
+    "hymenium_attachment": "free",
+    "stipe": ["ring"],
+    "spore_print": {
+        "color": ["#964B00", "#654321"],
+        "literal": "brown to blackish-brown"
+    },
+    "ecology": "sptrotrophic",
+    "edible": "choice",
+
+    "classification": {
+        "division": "basidiomycota",
+        "class": "agaricomycetes",
+        "order": "agaricales",
+        "family": "agaricaceae",
+        "genus": "agaricus"
+    }
  }
 
 ]}
